@@ -44,6 +44,8 @@ body {
     float: right;
     margin-left: 10px;
     margin-top: 40px;
+    border: 0.5px solid #DDA0DD ;
+    font-family: 'Fjalla One', sans-serif;
 
 }
 .button:hover {

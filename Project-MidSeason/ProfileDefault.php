@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -6,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/Style-profileDefault.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <script type="text/javascript" src="assets/JS/Sync.js" ></script>
 </head>
 <body>
 <div id="container">
@@ -13,9 +16,8 @@
         <div id="holder">
             <div id="logo"></div>
             <div id="menu">
-                <span class="button"><i>R</i>ecipes</span>
-                <span class="button"><i>I</i>nfo</span>
-                <span class="button"><i>P</i>rofiles</span>
+                <button type="button" class="button" id="rec"><i>R</i>ecipes</button>
+                <button type="button" class="button" id="inf"><i>I</i>nfo</button>
             </div>
         </div>
 
@@ -30,9 +32,9 @@
     <div id="scontainer">
         <div id="fholder">
             <div id="pageinfo">
-                <div class="blockec"> <span id="onee" class="pinfo">About Me</span></div>
-                <div class="blockec"> <span id="twoo" class="pinfo">Recipes</span></div>
-                <div class="blockec"><span id="three" class="pinfo">Add Recipe</span></div>
+                <div class="blockec"> <button id="onee" class="pinfo">Add Info</button></div>
+                <div class="blockec"> <button id="twoo" class="pinfo">Recipes</button></div>
+                <div class="blockec"> <button id="three"class="pinfo">Add Recipe</button></div>
             </div>
 
             <div id="uprline"></div>

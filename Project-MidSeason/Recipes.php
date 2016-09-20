@@ -1,11 +1,14 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/Style-AddRecipe.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/Style-Recipes.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
 </head>
 <body>
 <div id="container">
@@ -28,23 +31,13 @@
 
     </div>
     <div id="scontainer">
-        <div id="fholder">
-            <div id="pageinfo">
-                <div class="blockec"> <span id="onee" class="pinfo">About Me</span></div>
-                <div class="blockec"> <span id="twoo" class="pinfo">Recipes</span></div>
-                <div class="blockec"><span id="three" class="pinfo">Add Recipe</span></div>
-            </div>
+        <div id="fholder"></div>
+        <div id="picholder"></div>
+        <div id="line"><p>Ingrediants</p></div>
+        <div id="line1"></div>
 
-            <div id="uprline"></div>
-
-            <div id="lwrrline"></div>
-            <div id="recipe1">
-
-            </div>
-
-
-        </div>
-
+        <div id="line2"><p>Steps</p></div>
+        <div id="line3"></div>
 
     </div>
     <div id="footer"></div>

@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -6,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/Style-Front.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <script type="text/javascript" src="assets/JS/Sync.js"></script>
+
 </head>
 <body>
 <div id="container">
@@ -13,17 +18,17 @@
         <div id="holder">
             <div id="logo"></div>
             <div id="menu">
-                <span class="button"><i>R</i>ecipes</span>
-                <span class="button"><i>I</i>nfo</span>
-                <span class="button"><i>P</i>rofiles</span>
+                <button type="button" class="button" id="rec"><i>R</i>ecipes</button>
+                <button type="button" class="button" id="inf"><i>I</i>nfo</button>
             </div>
         </div>
 
     </div>
     <div id="lheader">
         <div id="spanz">
-            <span class="sign">Sign In</span>
-            <span class="sign">Register</span>
+            <a href="http://localhost/Project-MidSeason/ProfileDefault.php">
+            <button type="button" class="sign" id="signp">Your profile</button>
+            </a>
         </div>
 
     </div>
@@ -39,10 +44,12 @@
         <div class="inrrbox-3"><div class="moover"><p class="header"><i class="head">Lorem ipsum dolor sit amet, consectetur adipiscing elit</i><br>Maecenas eu tempus nisi, at dignissim enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed placerat viverra gravida.</p></div> </div>
 
     </div>
-        <div id="footer"></div>
+    <div id="footer"></div>
 
 </div>
 
 
+
 </body>
+
 </html>

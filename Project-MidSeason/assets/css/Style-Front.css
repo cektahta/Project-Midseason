@@ -44,6 +44,9 @@ body {
     float: right;
     margin-left: 10px;
     margin-top: 40px;
+    border: 0.5px solid #DDA0DD ;
+    font-family: 'Fjalla One', sans-serif;
+
 
 }
 .button:hover {
@@ -149,4 +152,12 @@ i {
 }
 .moover {
     margin-top: 190px;
+}
+#signp {
+    background-color: white;
+    border: 1px solid white;
+}
+#signp:hover {
+    background-color: white; /* Green */
+    color: darkorchid;
 }

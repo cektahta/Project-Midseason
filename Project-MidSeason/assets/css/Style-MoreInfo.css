@@ -3,7 +3,7 @@ body {
 }
 #container {
     width: 1200px;
-    height: 799px;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: azure;
@@ -44,6 +44,8 @@ body {
     float: right;
     margin-left: 10px;
     margin-top: 40px;
+    border: 0.5px solid #DDA0DD ;
+    font-family: 'Fjalla One', sans-serif;
 
 }
 .button:hover {
@@ -64,7 +66,8 @@ body {
 }
 i {
     color:darkorchid;
-    font-size: 30px;
+    font-size: 35px;
+    font-family: 'Mogra', cursive;
 }
 .sign {
     color: #DDA0DD;
@@ -126,7 +129,7 @@ i {
     height: 80px;
     background-color:white;
     border: 1px solid #DDA0DD ;
-    margin-top: 700px;
+    margin-top: 900px;
     position: absolute;
     border-bottom: 5px solid #DDA0DD;
 }
@@ -152,71 +155,132 @@ i {
 }
 
 #fholder {
-    width:1000px;
-    height:520px;
-    margin-left: 100px;
+    width:800px;
+    height:800px;
+    margin-left: 180px;
 
     background-color: white;
     border: 1px solid #DDA0DD;
     position: absolute;
-    margin-top: 158px;
+    margin-top: 138px;
     box-shadow: 0 0 5px rgba(0,0,0,.5) ;
 }
+.fspan {
+    display: block;
 
+}
+input {
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: 0 0 5px rgba(0,0,0,.5) ;
+}
+#loginf {
+    margin-top: 210px;
+    margin-left: 220px;
+
+}
+#fbutton {
+    margin-right: 255px;
+    color: black;
+    font-size: 1.2em;
+    margin-top: 10px;
+
+}
 #uprline {
-    width: 1000px;
+    width: 600px;
     height: 2px;
 
     position: absolute;
-    margin-top: 80px;
+    margin-top: 180px;
     background-color: #DDA0DD;
 
 }
 #lwrrline {
-    width: 1000px;
+    width: 600px;
     height: 2px;
 
     position: absolute;
-    margin-top:10px;
+    margin-top:70px;
     background-color: #DDA0DD;
 }
-.pinfo {
-    color: #DDA0DD;
-    font-size: 2.5em;
-    float: right;
-    margin-left: 10px;
-    margin-top: 25px;
-}
-#pageinfo {
-    margin-right: 250px;
+
+#proholder {
+    margin-top: 10px;
+    margin-right: 40px;
 
 }
-.blockec {
-
-}
-#piccontain {
-    width: 300px;
-    height: 400px;
-    background-color: azure;
-    border: 1px solid #DDA0DD;
-    margin-top: 100px;
-    margin-left: 20px;
+#picholder {
+    margin-top: 150px;
+    margin-left: 380px;
+    width: 600px;
+    height: 250px;
+    background: url(../images/burger.jpg) no-repeat;
     position: absolute;
-    background: url(../images/chef-008.jpg) no-repeat;
     background-size:contain;
 
 }
-#textabout  {
-    width: 600px;
-    height: 300px;
-    margin-left: 350px;
+#line {
     position: absolute;
-    margin-top: 100px;
-    color:darkgrey;
-}
-
-#onee {
-    color: white;
     background-color: #DDA0DD;
+    width: 700px;
+    height: 2px;
+    margin-top: 150px;
+    margin-left: 220px;
+}
+#line p {
+    font-size: 1.2em;
+    margin-left: 300px;
+    margin-top: 6px;
+}
+#line1 {
+    position: absolute;
+    background-color: #DDA0DD;
+    width: 700px;
+    height: 2px;
+    margin-top: 175px;
+    margin-left: 220px;
+}
+#line2 {
+    position: absolute;
+    background-color: #DDA0DD;
+    width: 700px;
+    height: 2px;
+    margin-top: 510px;
+    margin-left: 220px;
+}
+#line3 {
+    position: absolute;
+    background-color: #DDA0DD;
+    width: 700px;
+    height: 2px;
+    margin-top: 540px;
+    margin-left: 220px;
+}
+#line2 p {
+    font-size: 1.2em;
+    margin-left: 320px;
+    margin-top: 5px;
+}
+#tcon1 {
+    position: absolute;
+    width: 700px;
+    height: 303px;
 
+    top: 190px;
+    left: 331px;
+    overflow: hidden;
+}
+#tcon2 {
+    position: absolute;
+    width: 700px;
+    height: 303px;
+
+    top: 550px;
+    left: 331px;
+    overflow: hidden;
+}
+#line2 p {
+    font-size: 1.2em;
+    margin-left: 300px;
+    margin-top: 7px;
 }
